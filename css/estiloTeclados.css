@@ -1,3 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    
+}
+#headerMain{
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo img{
+    height: 130px;
+    width: 250px;
+}
+#navbar{
+    display: flex;
+    position: relative;
+
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    font-size: larger;
+}
+#banner{
+    position: relative;
+    height: 390px;
+}
+#bannerdiv{
+    display: block;
+    width: 50%;
+    
+    padding-top: 300px;
+    padding-left: 2%;
+    color: blueviolet;
+    position: absolute;
+    font-size: 30px;
+
+}
+#imgbanner{
+    position: absolute;
+    
+}
 header{
     display: flex;
     align-items: center;
@@ -7,9 +57,10 @@ header img{
     width: 220px;
     border-radius: 30px;
 }
-body{
-    background-color: rgb(30, 36, 36);
-}
 #main{
     background-image: linear-gradient(blue, gray);
+}
+#imgbanner{
+    height: 500px;
+    width: 100%;
 }
