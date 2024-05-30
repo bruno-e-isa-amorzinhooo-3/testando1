@@ -1,0 +1,75 @@
+
+header {
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -30px;
+    height: 130px;
+    
+}
+body{
+    background-image: linear-gradient(yellow,white);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#logo img{
+    height: 150px;
+    width: 250px;
+   
+}
+#banner img{
+    width: 100%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+#busca{
+    position: absolute;
+    margin-left: 330px;
+    display: flex;
+    
+}
+#busca input{
+    font-size: 20px;
+    width: 700px;
+}
+
+#topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar{
+    display: flex;
+    position: relative;
+
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 70px;
+    font-size: larger;
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 3rem;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 15px;
+    
+    
+    
+}
+.card p{
+    text-decoration: underline;
+    align-items: center;
+    
+
+}
+.card img{
+   
+
+}
+
+    
