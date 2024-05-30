@@ -1,15 +1,25 @@
 /*Arrumando teste*/
+*{
+    margin: 0;
+    padding: 0;
+}
 header {
     background-color: yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: -30px;
     height: 130px;
+    width: 100%;
+    display: flex;
     
 }
 body{
+    width: 90%;
     background-image: linear-gradient(yellow,white);
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 90px;
+    
+}
+#main{
+    width: 100%;
+    
 }
 #logo img{
     height: 150px;
@@ -17,27 +27,26 @@ body{
    
 }
 #banner img{
-    width: 100%;
     border-width: 2px;
     border-color: black;
     border-style: solid;
+    width: 100%;
 }
 #busca{
-    position: absolute;
-    margin-left: 330px;
-    display: flex;
+    display: block;
     
 }
 #busca input{
+    margin-top: 50px;
     font-size: 20px;
     width: 700px;
+    height: 30px;
+    
+
+    
+    
 }
 
-#topo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 #navbar{
     display: flex;
     position: relative;
@@ -46,20 +55,19 @@ body{
 #navbar a{
     text-decoration: none;
     color: black;
-    padding: 70px;
+    padding: 50px;
     font-size: larger;
 }
 #cards{
     display: flex;
     justify-content: space-between;
-    padding: 6rem 3rem;
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    padding: 15px;
-    
-    
-    
+    padding: 15px;  
+}
+#pagamentos{
+    margin-top: 30px;
 }
 .titulo{
     text-decoration: underline;
