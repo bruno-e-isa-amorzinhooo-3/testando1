@@ -64,12 +64,25 @@ body{
 .card p{
     text-decoration: underline;
     align-items: center;
+    cursor: pointer;
+    color: royalblue;
     
 
 }
 .card img{
-   
+    border: solid;
+    border-radius: 52px;
+    height: 220px;
+    cursor: pointer;
+    
 
 }
+.texto{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+    cursor: pointer;
 
+}
     
