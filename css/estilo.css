@@ -61,19 +61,23 @@ body{
     
     
 }
-.card p{
+.titulo{
     text-decoration: underline;
-    align-items: center;
-    cursor: pointer;
     color: royalblue;
+    display: block;
+        
+    
+    
     
 
 }
 .card img{
+    margin: 20px;
     border: solid;
     border-radius: 52px;
     height: 220px;
     cursor: pointer;
+    
     
 
 }
