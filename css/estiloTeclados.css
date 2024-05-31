@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
-    width: 100%;
-    
+    background-image: linear-gradient(rgb(8, 8, 94), rgb(197, 53, 226));
 }
 #headerMain{
     background-color: yellow;
@@ -21,6 +21,7 @@ body{
 #navbar{
     display: flex;
     position: relative;
+    width: 100%;
 
 }
 #navbar a{
@@ -28,6 +29,15 @@ body{
     color: black;
     padding: 50px;
     font-size: larger;
+}
+#busca{
+    display: block;
+}
+#busca input{
+    margin-top: 50px;
+    font-size: 20px;
+    width: 700px;
+    height: 30px;
 }
 #banner{
     position: relative;
@@ -63,4 +73,51 @@ header img{
 #imgbanner{
     height: 500px;
     width: 100%;
+}
+#cards{
+    margin-top: 130px;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    
+}
+.card{
+    cursor: pointer;
+}
+.imgProduto{
+    height: 150px;
+}
+#imagemPequena{
+    height: 350px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+.precoAntigo{
+    text-decoration: line-through;
+    color: rgb(32, 9, 54);
+}
+.preco{
+    color: blueviolet;
+    font-size: 30px;
+}
+.info{
+    color: rgb(180, 181, 214);
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#bannerDiscurso{
+    order: 1;
+    position: absolute;
+    margin-top: 120px;
+    margin-right: 20px;
+    width: 50%;
+    height: 440px;
+    
+}   
+#textoDiscurso{
+    order: 2;
+  
+    
 }
